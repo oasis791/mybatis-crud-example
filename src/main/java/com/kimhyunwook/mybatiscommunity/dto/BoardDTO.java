@@ -18,4 +18,6 @@ public class BoardDTO {
     private String boardContents;
     private int boardHits;
     private String createdAt;
+    private int fileAttached;
+    private MultipartFile boardFile;
 }
